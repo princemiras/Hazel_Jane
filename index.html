@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check" class="checkbox">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <h1 class="nav_head">Hazel Jane</h1>
+        <ul>
+            <li><a href="#home" onclick="closeMenu()">Home</a></li>
+            <li><a href="#about" onclick="closeMenu()">About</a></li>
+            <li><a href="#gallery" onclick="closeMenu()">Gallery</a></li>
+            <li><a href="#preferences" onclick="closeMenu()">Preferences</a></li>
+            <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+            <a href="#contact"><button class="contact_btn" onclick="closeMenu()">Contact Me</button></a>
+        </ul>
+</nav>
+    
+    <section id="home" class="home">
+        <img src="1.jpg" alt="width=450px" height="400px">
+        <div class="description">
+            <h1>Hello I'm <br><span>Hazel Jane </span></h1>
+            <h2>I'm a Future <span>Police Woman...</span></h2>
+            <p >A proud Criminology student with a strong ambition to serve and protect. I dream of becoming a dedicated policewoman who upholds justice, fairness, and integrity in every step. My journey in criminology has taught me the values of discipline, responsibility, and leadership.<br></br>
+             A future policewoman isn't defined by her uniform, but by her heart to serve, her mind to think critically, and her hands ready to help.<br></br>
+    "Be fearless in the pursuit of justice, and never stop learning. The badge I will wear in the future represents the strength I am building today."
+
+            </p>   
+            <div class="font">
+                <a href="https://www.instagram.com" target="_blank" title="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://web.facebook.com/ha.zel.ja.ne.817302" target="_blank" title="Facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="https://www.linkedin.com" target="_blank" title="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="tel:+9652007455" title="Phone">
+                    <i class="fas fa-phone"></i>
+                </a>
+            </div>
+            <button class="download-btn">
+    <a href="Hazel_Jane_CV.pdf" download="Hazel_Jane_CV.pdf">Download CV</a>
+</button>
+        </div>
+    </section>
+
+
+    <section id="about" class="about">
+        <div class="about_section">
+            <h1>About<span>Me</span></h1>
+            <h2>Web<span>Developer!</span></h2>
+            <p>
+                I'm Hazel Jane Valencia from Sindangan, Zamboanga del Norte. 
+                While pursuing criminology to serve justice, I channel my analytical mindset into web development—building sites for school projects and exploring tech solutions for crime prevention. 
+                Whether it's code or criminal psychology, I believe in using skills to make a difference.
+                <span id="more-text" style="display: none;">
+                    <br><br>As a criminology student, I am deeply committed to understanding how law enforcement and technology can work hand in hand. I believe that digital tools like data analytics, surveillance systems, and cybersecurity can play a major role in preventing and solving crimes. By learning both criminology and web development, I aim to contribute to a safer society through innovative, tech-based solutions in the field of public safety and criminal justice.
+
+                    <br><br>My long-term goal is to become a policewoman who is not only physically and mentally prepared for duty, but also equipped with digital knowledge to solve modern problems. By combining discipline, empathy, and technical expertise, I want to serve the community in a smarter and more effective way.
+
+  
+                </span>
+            </p>
+            <button class="about_btn" onclick="toggleReadMore()">Read More..</button>
+        </div>
+        <div class="about_photo">
+            <img src="1.jpg" alt="" width="420px" height="360px">
+        </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+        <div class="gallery-header">My <span>Photos</span></div>
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="5.jpeg" alt="Photo 5">
+            </div>
+            <div class="gallery-item">
+                <img src="6.jpeg" alt="Photo 6">
+            </div>
+            <div class="gallery-item">
+                <img src="7.jpeg" alt="Photo 7">
+            </div>
+            <div class="gallery-item">
+                <img src="8.jpeg" alt="Photo 8">
+            </div>
+        </div>
+        <a href="gallery.html">
+            <button class="see-more-btn">See More Photos</button>
+        </a>
+    </section>
+
+    <section class="preferences" id="preferences">
+    <div class="container">
+        <div class="hobbies-section">
+            <h1 class="section-title">My<span>Hobbies</span></h1>
+            <div class="hobby-grid">
+                <div class="hobby-card">
+                    <div class="hobby-image">
+                        <img src="18.jpeg">
+                    </div>
+                    <div class="hobby-content">
+                        <h2>Pandanan</h2>
+                        <p>Pandanan Secret Paradise , Jose Dalman.</p>
+                    </div>
+                </div>
+
+                <div class="hobby-card">
+                    <div class="hobby-image">
+                        <img src="20.jpeg">
+                    </div>
+                    <div class="hobby-content">
+                        <h2>Pandanan</h2>
+                        <p>Pandanan Secret Paradise , Jose Dalman.</p>
+                    </div>
+                </div>
+
+            
+                <div class="hobby-card">
+                    <div class="hobby-image">
+                        <img src="7.jpeg">
+                    </div>
+                    <div class="hobby-content">
+                        <h2>Calatunan</h2>
+                        <p>banmill calatunan sindangan.</p>
+                    </div>
+                </div>
+
+                <div class="hobby-card">
+                    <div class="hobby-image">
+                        <img src="8.jpeg">
+                    </div>
+                    <div class="hobby-content">
+                        <h2>Calatunan</h2>
+                        <p>banmill calatunan sindangan.</p>
+                    </div>
+                </div>
+                <div class="hobby-card">
+                    <div class="hobby-image">
+                        <img src="11.jpg">
+                    </div>
+                    <div class="hobby-content">
+                        <h2>Plaza</h2>
+                        <p>Plaza Sindangan , Zamboanga del Norte.</p>
+                    </div>
+                </div>
+                <div class="hobby-card">
+                    <div class="hobby-image">
+                        <img src="12.jpeg">
+                    </div>
+                    <div class="hobby-content">
+                        <h2>Plaza</h2>
+                        <p>Plaza Sindangan , Zamboanga del Norte.</p>
+                    </div>
+                </div>
+                <div class="hobby-card">
+                    <div class="hobby-image">
+                        <img src="9.jpeg">
+                    </div>
+                    <div class="hobby-content">
+                        <h2>Baybay</h2>
+                        <p>Doña Josefa Sindangan Zamboanga del Norte.</p>
+                    </div>
+                </div>
+                <div class="hobby-card">
+                    <div class="hobby-image">
+                        <img src="10.jpg">
+                    </div>
+                    <div class="hobby-content">
+                        <h2>Baybay</h2>
+                        <p>Doña Josefa sindangan Zamboanga del Norte.</p>
+                    </div>
+                </div>
+                <div class="hobby-card">
+                    <div class="hobby-image">
+                        <img src="6.jpeg">
+                    </div>
+                    <div class="hobby-content">
+                        <h2>Canteen</h2>
+                        <p>Siari John H. Roemer National High School </p>
+                    </div>
+                </div>
+                <div class="hobby-card">
+                    <div class="hobby-image">
+                        <img src="5.jpeg">
+                    </div>
+                    <div class="hobby-content">
+                        <h2>Canteen</h2>
+                        <p>Siari John H. Roemer National High School </p>
+                    </div>
+                </div>
+                <div class="hobby-card">
+                    <div class="hobby-image">
+                        <img src="13.jpg">
+                    </div>
+                    <div class="hobby-content">
+                        <h2>Siari John H. Roemer National High School</h2>
+                        <p>Siari sindangan Zamboanga del Norte.</p>
+                    </div>
+                </div>
+                <div class="hobby-card">
+                    <div class="hobby-image">
+                        <img src="22.jpg">
+                    </div>
+                    <div class="hobby-content">
+                        <h2>Siari John H. Roemer National High School</h2>
+                        <p>Siari sindangan Zamboanga del Norte.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>   
+</section>
+<div class="contact-section" id="contact">
+    <h1>Contacts</h1>
+    <div class="ohaha">
+        <p>Use my contact form for all information requests or<br> contact me directly using the contact information<br> below.
+            <br><br>Feel free to get in touch with me via email or phone.
+        </p>
+    </div>
+
+    <div class="contact-cards">
+        <div class="card">
+            <i class="fas fa-envelope icon"></i>
+            <h3>Email</h3>
+            <p>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=hazeljanevalencia899@gmail.com" target="_blank">
+                    hazeljanevalencia899@gmail.com
+                </a>
+            </p>
+        </div>
+        <div class="card">
+            <i class="fas fa-phone icon"></i>
+            <h3>Phone</h3>
+            <p>
+                <a href="tel:+9652007455">Call: +9652007455</a><br>
+                <a href="sms:+9652007455">Message: +9652007455</a>
+            </p>
+        </div>
+        <div class="card">
+            <i class="fas fa-map-marker-alt icon"></i>
+            <h3>Address</h3>
+            <p>Doña Josefa, Sindangan, ZN</p>
+        </div>
+    </div>
+</div>
+      <!-- Back to Top Button -->
+<div id="back-to-top" class="back-to-top">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+</div>
+      <script>
+    function closeMenu() {
+        document.getElementById('check').checked = false; // Uncheck the checkbox to hide the menu
+    }
+</script>
+<script>
+    function toggleReadMore() {
+        const moreText = document.getElementById("more-text");
+        const button = document.querySelector(".about_btn");
+
+        if (moreText.style.display === "none" || moreText.style.display === "") {
+            moreText.style.display = "inline"; // Show the hidden content
+            button.textContent = "Read Less.."; // Change button text
+        } else {
+            moreText.style.display = "none"; // Hide the content
+            button.textContent = "Read More.."; // Reset button text
+        }
+    }
+</script>
+<script>
+    const backToTopButton = document.getElementById('back-to-top');
+
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 200) { // Show the button after scrolling 200px
+            backToTopButton.classList.add('show');
+        } else {
+            backToTopButton.classList.remove('show');
+        }
+    });
+</script>
+</body>
+</html>
